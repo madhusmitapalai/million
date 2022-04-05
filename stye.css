@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+}
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 9rem;
+}
+
+li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+.navbar .navbar-brand img {
+  max-width: 8rem;
+}
+.navbar {
+  background: transparent;
+  color: #000 !important;
+}
+.navbar .navbar-nav li {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-right: 0.7rem;
+}
+.navbar .navbar-nav li a {
+  color: #000;
+  border-radius: 1px solid #000;
+}
+.navbar .navbar-nav li a:link,
+.navbar .navbar-nav li a:visited {
+  display: inline-block;
+  border-radius: 100px;
+  -webkit-transition: all;
+  transition: all;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/*elips*/
+.elip1 {
+  background: url(images/Ellipse.png);
+}
+/*home-section*/
+.home {
+  padding: 1rem;
+  position: relative;
+  top: 0;
+}
+section .youtube {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+section .youtube img {
+  padding: 2rem;
+}
+section .youtube-2 img {
+  max-width: 75%;
+  text-align: center;
+}
+
+section .home_content {
+  text-align: start;
+  padding: 3rem 6rem;
+}
+section .home_content-2 {
+  text-align: start;
+  padding: 3rem 5rem;
+}
+.col-md-6 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+section .home_content h1 {
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: #000000;
+}
+section .home_content p,
+.home_content-2 p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #777777;
+}
+/*footer*/
+.footer {
+  background: #051d33;
+  color: #ffff;
+  position: static;
+  bottom: 0;
+  padding: 3rem;
+}
+.footer .ul {
+  display: flex;
+  overflow-x: hidden;
+  justify-content: space-around;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.footer .ul img {
+  max-width: 4rem;
+  display: inline-block;
+}
+.footer_text {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2.3rem;
+  letter-spacing: 0em;
+}
+.footer_h4 {
+  font-size: 0.7rem;
+  font-weight: 500;
+  padding: 0rem 2rem;
+  line-height: 3rem;
+  text-transform: capitalize;
+}
+.hr-2 {
+  height: 0.4rem;
+  width: 400px;
+  margin: auto;
+}
+/*last footer*/
+.last_footer {
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.last_footer img {
+  max-width: 9rem;
+  display: inline-block;
+}
+
+@media (min-width: 140px) and (max-width: 450px) {
+  /*home-section*/
+  section {
+    padding: 1rem;
+  }
+  section .youtube img {
+    padding: 2rem;
+    max-width: 80%;
+  }
+  section .youtube-2 img {
+    max-width: 75%;
+    text-align: center;
+  }
+  section .home_content-2 {
+    padding: 3rem 2rem;
+    overflow-x: hidden;
+  }
+
+  section .home_content {
+    overflow-x: hidden;
+    padding: 3rem;
+  }
+  .footer .ul img {
+    display: block;
+    max-width: 2.5rem;
+  }
+  .footer .ul {
+    text-align: start;
+  }
+  .last_footer img {
+    display: block;
+    width: 5rem;
+  }
+}
+@media (min-width: 450px) and (max-width: 771px) {
+  /*home-section*/
+  section .youtube img {
+    padding: 2rem;
+    max-width: 80%;
+  }
+  section .youtube-2 img {
+    max-width: 75%;
+    text-align: center;
+  }
+  section .home_content-2 {
+    padding: 0;
+  }
+}
+@media (min-width: 771px) and (max-width: 991px) {
+  section .youtube img {
+    padding: 2rem;
+    max-width: 80%;
+  }
+  section .youtube-2 img {
+    max-width: 75%;
+    text-align: center;
+  }
+  section .home_content-2 {
+    padding: 2rem;
+  }
+  section .home_content {
+    padding: 3rem;
+  }
+}
+@media (min-width: 991px) and (max-width: 1124px) {
+  section .home_content-2 {
+    padding: 2rem 6rem;
+  }
+  section .home_content {
+    padding: 3rem 5rem;
+  }
+}

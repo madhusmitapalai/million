@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+  text-transform: capitalize;
+}
+li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+.about .container {
+  padding: 3rem;
+  overflow-x: hidden;
+}
+.about .us {
+  font-size: 2.3rem;
+  font-weight: 700;
+  font-style: normal;
+  color: #000;
+  letter-spacing: 0.1px;
+  margin-bottom: 1rem;
+}
+.texts {
+  padding: 0 3rem;
+}
+.texts h2 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+.texts p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.about_img img {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+}
+.col-md-6 {
+  margin: 0;
+  padding: 0;
+}
+.border_div {
+  position: absolute;
+  top: 5rem;
+  right: 8rem;
+  box-sizing: border-box;
+  border: 16px solid #f1632a;
+  height: 20rem;
+  width: 31rem;
+}
+.background {
+    overflow-x:hidden ;
+  position: absolute;
+  top: 8rem;
+  right: 11rem;
+  margin-left: -11rem;
+  background: #53afa4;
+  padding: 0.5rem 1.5rem 1.5rem 2rem;
+  color: #ffff;
+}
+.position_c {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+.background h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: start;
+  margin-bottom: 1rem;
+}
+.background p {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+.imges img {
+  max-width: 70%;
+  padding: 1rem;
+}
+/*about-written*/
+.divs {
+  padding: 2rem;
+}
+.about-wrtten h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.about-wrtten p {
+  font-size: 1rem;
+  line-height: 2.5rem;
+}
+
+.about-wrtten .card {
+  border: none;
+  text-align: center;
+  padding: 2rem;
+  overflow-x: hidden;
+}
+.about-wrtten .card img {
+  border-radius: 50%;
+}
+.about-wrtten .card p {
+  font-weight: 500;
+  padding: 0.2rem;
+}
+.about-wrtten .card h5 {
+  font-weight: 800;
+  margin-top: -1rem;
+}
+.about-wrtten .card small {
+  font-weight: 600;
+  color: #051d33;
+}
+/*footer*/
+.footer {
+  background: #051d33;
+  color: #ffff;
+  position: static;
+  bottom: 0;
+  padding: 3rem;
+}
+.footer .ul {
+  display: flex;
+  overflow-x: hidden;
+  justify-content: space-around;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.footer .ul img {
+  max-width: 4rem;
+  display: inline-block;
+}
+.footer_text {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2.3rem;
+  letter-spacing: 0em;
+}
+.footer_h4 {
+  font-size: 0.7rem;
+  font-weight: 500;
+  padding: 0rem 2rem;
+  line-height: 3rem;
+  text-transform: capitalize;
+}
+.hr-2 {
+  height: 0.4rem;
+  width: 400px;
+  margin: auto;
+}
+/*last footer*/
+.last_footer {
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.last_footer img {
+  max-width: 9rem;
+  display: inline-block;
+}
+@media (min-width: 180px) and (max-width: 500px) {
+  .about {
+    padding: 1rem;
+    overflow: hidden;
+  }
+  .divs {
+    padding: 0rem;
+  }
+  .footer .ul img {
+    display: block;
+    max-width: 2.5rem;
+  }
+  .footer .ul {
+    text-align: start;
+  }
+  .last_footer img {
+    display: block;
+    width: 5rem;
+  }
+  .border_div {
+    display: none;
+  }
+  .background {
+    display: none;
+  }
+  .about-wrtten p {
+    padding: 1rem;
+  }
+}
+@media (min-width: 771px) and (max-width: 991px) {
+  .border_div {
+    position: absolute;
+    top: 6rem;
+    right: 3rem;
+    display: block;
+    height: 23rem;
+    width: 20rem;
+  }
+  .background {
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    margin-left: 0rem;
+    padding: 1rem 2rem;
+  }
+  .imges img {
+    max-width: 70%;
+    padding: 1rem;
+    margin-top: 20rem;
+  }
+}
+@media (min-width: 500px) and (max-width: 771px) {
+  .border_div {
+    position: absolute;
+    top: 2.5rem;
+    right: 4rem;
+    display: block;
+    height: 20rem;
+    width: 27rem;
+  }
+  .background {
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    margin-left: 0rem;
+    padding: 1rem 2rem;
+  }
+}
+@media (min-width: 991px) and (max-width: 1030px) {
+  .border_div {
+    position: absolute;
+    top: 6rem;
+    right: 3rem;
+    display: block;
+    height: 23rem;
+    width: 20rem;
+  }
+  .background {
+    position: absolute;
+    top: 9rem;
+    right: 6rem;
+    margin-left: 0rem;
+    padding: 1rem 2rem;
+  }
+}

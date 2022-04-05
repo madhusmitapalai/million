@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+}
+li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+.service h1 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  font-style: normal;
+  color: #000;
+  letter-spacing: 0.1px;
+}
+.service h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 75px;
+}
+.service .bolg_text {
+  padding: 1rem;
+  text-align: start;
+}
+.service .blog-p {
+  padding: 1rem;
+  color: #000000;
+  font-size: 1rem;
+  overflow-x: hidden;
+}
+.service .admin_img img {
+  max-width: 20rem;
+  display: inline-block;
+}
+/*footer*/
+.footer {
+  background: #051d33;
+  color: #ffff;
+  position: static;
+  bottom: 0;
+  padding: 3rem;
+}
+.footer .ul {
+  display: flex;
+  overflow-x: hidden;
+  justify-content: space-around;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.footer .ul img {
+  max-width: 4rem;
+  display: inline-block;
+}
+.footer_text {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2.3rem;
+  letter-spacing: 0em;
+}
+.footer_h4 {
+  font-size: 0.7rem;
+  font-weight: 500;
+  padding: 0rem 2rem;
+  line-height: 3rem;
+  text-transform: capitalize;
+}
+.hr-2 {
+  height: 0.4rem;
+  width: 400px;
+  margin: auto;
+}
+/*last footer*/
+.last_footer {
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.last_footer img {
+  max-width: 9rem;
+  display: inline-block;
+}
+
+@media (min-width: 140px) and (max-width: 450px) {
+  .service .admin_img img {
+    max-width: 15rem;
+  }
+  .service h2 {
+    font-size: 30px;
+  }
+  .service .blog_img img {
+    max-width: 16rem;
+  }
+  .footer .ul img {
+    display: block;
+    max-width: 2.5rem;
+  }
+  .footer .ul {
+    text-align: start;
+  }
+  .last_footer img {
+    display: block;
+    width: 5rem;
+  }
+}
+@media (min-width: 701px) and (max-width: 991px) {
+  .service .blog_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .service .blog_img img {
+    max-width: 17rem;
+  }
+  .service .bolg_text {
+    padding: 0.2rem;
+  }
+  .service .blog-p {
+    padding: 0rem;
+  }
+}
